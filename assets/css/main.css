@@ -3523,5 +3523,38 @@ input, select, textarea {
 		.main .button.primary:hover {
 			background-color: #626262;
 		}  
+		.label-logos {
+			display: flex;
+			justify-content: center;
+			gap: 2rem;
+		  }
+		  
+		  .label-item {
+			display: flex;
+			flex-direction: column;   /* text under logo, centered */
+			align-items: center;
+			text-decoration: none;
+		  }
+		  
+		  .label-logo {
+			width: 80px;              /* same width for all */
+			height: 80px;             /* same height for all */
+			object-fit: contain;      /* keep aspect ratio, add padding if needed */
+			display: block;
+		  }
+		  
+		  .label-text {
+			margin-top: 0.5rem;
+			font-size: 0.9rem;
+			text-align: center;
+		  }
+				
+		
+		  /* optional: subtle hover */
+		  .label-logos a:hover .label-logo {
+			filter: brightness(1.1);
+		  }
+		  
+
 
 	}
