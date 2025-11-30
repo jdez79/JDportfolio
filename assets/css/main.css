@@ -3514,4 +3514,14 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+			/* put near the end of main.css */
+.main .button.primary {
+	background-color: #555;
+	box-shadow: none;
+	color: #fff !important;
+  }
+		.main .button.primary:hover {
+			background-color: #626262;
+		}  
+
 	}
