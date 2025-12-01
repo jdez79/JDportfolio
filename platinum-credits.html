@@ -1,21 +1,177 @@
-<div class="label-logos">
-    <a href="https://www.discogs.com/artist/3058822-Jason-Desmond" target="_blank" rel="noopener noreferrer" class="label-item">
-      <img src="images/discogs-logo.jpg" alt="Discogs artist page" class="label-logo">
-    </a>
-  
-    <a href="https://www.discogs.com/label/33518-Silverline" target="_blank" rel="noopener noreferrer" class="label-item">
-      <img src="images/silverline-logo.jpg" alt="Silverline Records" class="label-logo">
-    </a>
-  
-    <a href="https://www.discogs.com/label/60507-Immergent" target="_blank" rel="noopener noreferrer" class="label-item">
-      <img src="images/immergent-logo.jpg" alt="Immergent Records" class="label-logo">
-      
-    </a>
-  
-    <a href="http://www.highfidelityreview.com/silverline-records-is-first-independent-record-label-to-release-45-dualdiscs.html"
-       target="_blank" rel="noopener noreferrer" class="label-item">
-      <img src="images/hfr-logo.jpg" alt="High Fidelity Review article" class="label-logo">
+<!DOCTYPE html><html lang="en"> 
+  <head> <meta charset="UTF-8"> 
+    <title>Platinum Records / Music Credits</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="platinum-credits.css"> 
+  </head> <body> <main class="main"> 
+    <h1>Platinum Records / Music Credits</h1>
 
-    </a>
-  </div>
-  
+    <div class="label-logos">
+      <!-- Discogs -->
+      <div class="label-item">
+        <a
+          href="https://www.discogs.com/artist/3058822-Jason-Desmond"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-thumb-link"
+        >
+          <img
+            src="images/discogs-logo.jpg"
+            alt="Discogs artist page"
+            class="label-logo"
+          >
+        </a>
+        <a
+          href="https://www.discogs.com/artist/3058822-Jason-Desmond"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-link"
+        >
+          Discogs artist page
+        </a>
+      </div>
+    
+      <!-- Silverline -->
+      <div class="label-item">
+        <a
+          href="https://www.discogs.com/label/33518-Silverline"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-thumb-link"
+        >
+          <img
+            src="images/silverline-logo.jpg"
+            alt="Silverline Records"
+            class="label-logo"
+          >
+        </a>
+        <a
+          href="https://www.discogs.com/label/33518-Silverline"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-link"
+        >
+          Silverline Records
+        </a>
+      </div>
+    
+      <!-- Immergent -->
+      <div class="label-item">
+        <a
+          href="https://www.discogs.com/label/60507-Immergent"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-thumb-link"
+        >
+          <img
+            src="images/immergent-logo.jpg"
+            alt="Immergent Records"
+            class="label-logo"
+          >
+        </a>
+        <a
+          href="https://www.discogs.com/label/60507-Immergent"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-link"
+        >
+          Immergent Records
+        </a>
+      </div>
+    
+      <!-- High Fidelity Review -->
+      <div class="label-item">
+        <a
+          href="http://www.highfidelityreview.com/silverline-records-is-first-independent-record-label-to-release-45-dualdiscs.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-thumb-link"
+        >
+          <img
+            src="images/hfr-logo.jpg"
+            alt="High Fidelity Review article"
+            class="label-logo"
+          >
+        </a>
+        <a
+          href="http://www.highfidelityreview.com/silverline-records-is-first-independent-record-label-to-release-45-dualdiscs.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label-link"
+        >
+          High Fidelity Review article
+        </a>
+      </div>
+    
+      <!-- Award thumbnails (click to zoom) -->
+      <div class="label-item">
+        <img
+          src="images/norajones.png"
+          data-full="images/norajones.png"
+          alt="Norah Jones"
+          class="label-logo award-thumb"
+        >
+        <span class="label-link">Norah Jones</span>
+      </div>
+    
+      <div class="label-item">
+        <img
+          src="images/sting.png"
+          data-full="images/sting.png"
+          alt="Sting"
+          class="label-logo award-thumb"
+        >
+        <span class="label-link">Sting</span>
+      </div>
+    
+      <div class="label-item">
+        <img
+          src="images/eminem.png"
+          data-full="images/eminem.png"
+          alt="Eminem"
+          class="label-logo award-thumb"
+        >
+        <span class="label-link">Eminem</span>
+      </div>
+    
+      <div class="label-item">
+        <img
+          src="images/yellowcard.png"
+          data-full="images/yellowcard.png"
+          alt="Yellowcard"
+          class="label-logo award-thumb"
+        >
+        <span class="label-link">Yellowcard</span>
+      </div>
+    
+      <div class="label-item">
+        <img
+          src="images/robcray.png"
+          data-full="images/robcray.png"
+          alt="Robert Cray"
+          class="label-logo award-thumb"
+        >
+        <span class="label-link">Robert Cray</span>
+      </div>
+    </div>
+    
+    <!-- Modal for full-size awards -->
+    <div id="award-modal" class="award-modal">
+      <span id="award-modal-close" class="award-modal-close">&times;</span>
+      <img id="award-modal-img" class="award-modal-img" alt="">
+      <div id="award-modal-caption" class="award-modal-caption"></div>
+    </div>
+    
+  </main> 
+  <script> document.addEventListener("DOMContentLoaded", function () { const modal = document.getElementById("award-modal"); 
+  const modalImg = document.getElementById("award-modal-img"); 
+  const caption = document.getElementById("award-modal-caption"); 
+  const closeBtn = document.getElementById("award-modal-close"); 
+    document.querySelectorAll(".award-thumb").forEach(function (img) 
+    { img.addEventListener("click", function () 
+    {const fullSrc = img.getAttribute("data-full") || img.src; modal.style.display = "flex"; 
+      modalImg.src = fullSrc; caption.textContent = img.alt || ""; }); }); 
+      closeBtn.addEventListener("click", function () 
+      {modal.style.display = "none"; }); 
+      modal.addEventListener("click", function (e) { if (e.target === modal) 
+      { modal.style.display = "none"; } }); }); </script> </body> </html>
