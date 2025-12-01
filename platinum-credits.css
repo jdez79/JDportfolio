@@ -13,12 +13,33 @@ body {
   margin-bottom: 1.5rem;
   }
   
+  .awards-section,
+  .credits-section {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  }
+  
+  .awards-section h2,
+  .credits-section h2 {
+  text-align: left;
+  margin-bottom: 0.75rem;
+  }
+  
+  /* Awards grid (first section) */
+  .awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  }
+  
+  /* Credits grid (second section) */
   .label-logos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1.5rem;
-  max-width: 1000px;
-  margin: 0 auto;
   padding: 1.5rem;
   background-color: #e5e5e5;
   border-radius: 8px;
